@@ -51,15 +51,15 @@ export default function Hero() {
 
   const cards = [
     {
-      title: "InterviewCoder Compatible",
-      description: "Edit and customize visually, instantly.",
+      title: "Untraceable AI",
+      description: "Completely undetectable during screen sharing.",
       icon: <CloudLightning className="h-full w-full" />,
       variant: "rose",
       showGridLines: true,
     },
     {
-      title: "Animated Out of Box",
-      description: "No setup and  smooth UI interactions.",
+      title: "Instant Solutions",
+      description: "Get DSA solutions in seconds, not minutes.",
       icon: <Sparkles className="h-full w-full" />,
       variant: "rose",
       showGridLines: true,
@@ -69,19 +69,19 @@ export default function Hero() {
   const cardConfigurations = [
     {
       color: "rose",
-      icon: "Blocks",
-      label: "Command",
+      icon: "AI",
+      label: "Speed",
       canvasProps: { gap: 3, speed: 80, colors: "#fff, #fda4af, #e11d48" },
-      number: 100,
-      desc: "Components available",
+      number: 2,
+      desc: "Seconds to solve",
     },
     {
       color: "rose",
-      icon: "f",
-      label: "Dropper",
+      icon: "🔒",
+      label: "Stealth",
       canvasProps: { gap: 3, speed: 80, colors: "#fff, #fda4af, #e11d48" },
-      number: 15,
-      desc: "Categories available",
+      number: 100,
+      desc: "% Undetectable",
     },
   ]
 
@@ -139,14 +139,14 @@ export default function Hero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.75, delay: 0.2 }}
           >
-            Prebuilt UI
+            JobCracker AI
             <img
               src="/rose.webp"
               alt="Logo"
               draggable={false}
               className="mx-4 mb-2 inline-block h-12 w-12 md:h-16 md:w-16"
             />
-            blocks to ship beautiful MVPs fast.
+            Your secret weapon for DSA interviews.
           </motion.h1>
         </div>
         <motion.div
@@ -156,8 +156,8 @@ export default function Hero() {
           transition={{ duration: 0.75, delay: 0.3 }}
         >
           <p className="text-muted-foreground text-xl">
-            Copy-paste beautiful, responsive components without worrying about styling or animations. Build faster,
-            launch sooner.
+            Get instant solutions to any DSA problem during interviews. Completely undetectable and lightning fast.
+            Crack your dream job with confidence.
           </p>
         </motion.div>
         <motion.div
@@ -166,14 +166,14 @@ export default function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.75, delay: 0.4 }}
         >
-          <Link prefetch={false} href="/docs/introduction">
+          <Link prefetch={false} href="/signup">
             <Button className="bg-gradient-to-b from-rose-500 to-rose-700 text-sm text-white shadow-[0px_2px_0px_0px_rgba(255,255,255,0.3)_inset]">
-              Get started
+              Start Cracking
             </Button>
           </Link>
-          <Link prefetch={false} href="/about">
+          <Link prefetch={false} href="#features">
             <Button variant={"secondary"}>
-              About <MoveRight className="ml-2 h-4 w-4" />
+              Learn More <MoveRight className="ml-2 h-4 w-4" />
             </Button>
           </Link>
         </motion.div>
@@ -192,18 +192,18 @@ export default function Hero() {
             alt="Next.js"
             className="mt-4 mr-2 hidden w-96 brightness-[4] select-none xl:block"
           />
-          <span className="text-sm text-gray-500">We use industry standards like </span>
+          <span className="text-sm text-gray-500">Trusted by developers at </span>
           <img
             src="/nextjs.webp"
             draggable={false}
-            alt="Next.js"
+            alt="Google"
             width={28}
             height={28}
             className="h-7 w-7 select-none"
           />
           <img
             src="/tailwind.webp"
-            alt="Tailwind CSS"
+            alt="Microsoft"
             width={28}
             height={28}
             className="h-7 w-7 select-none"
@@ -211,7 +211,7 @@ export default function Hero() {
           />
           <img
             src="/framer.webp"
-            alt="Framer Motion"
+            alt="Amazon"
             width={24}
             height={24}
             className="h-6 w-6 select-none"

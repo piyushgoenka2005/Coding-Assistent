@@ -85,10 +85,10 @@ export default function Features() {
                 style={{ transition: "all 0s ease-in-out" }}
               >
                 <div className="flex flex-col gap-4">
-                  <h3 className="text-2xl leading-none font-semibold tracking-tight">CLI & Manual Support</h3>
+                  <h3 className="text-2xl leading-none font-semibold tracking-tight">Stealth Mode</h3>
                   <div className="text-md text-muted-foreground flex flex-col gap-2 text-sm">
                     <p className="max-w-[460px]">
-                      Integrate your landing page directly in the product while using your favorite tools.
+                      Completely undetectable during screen sharing. Your secret stays safe while you ace the interview.
                     </p>
                   </div>
                 </div>
@@ -273,11 +273,10 @@ export default function Features() {
                 style={{ transition: "all 0s ease-in-out" }}
               >
                 <div className="flex flex-col gap-4">
-                  <h3 className="text-2xl leading-none font-semibold tracking-tight">Globally Usable</h3>
+                  <h3 className="text-2xl leading-none font-semibold tracking-tight">Universal Coverage</h3>
                   <div className="text-md text-muted-foreground flex flex-col gap-2 text-sm">
                     <p className="max-w-[460px]">
-                      Blocks are available everywhere but ours are the best. Use them in your favorite framework or even
-                      in plain HTML.
+                      Handles any DSA problem from arrays to graphs, dynamic programming to system design. No problem is too complex.
                     </p>
                   </div>
                 </div>
@@ -285,7 +284,7 @@ export default function Features() {
                   <h1 className="mt-8 text-center text-5xl leading-[100%] font-semibold sm:leading-normal lg:mt-12 lg:text-6xl">
                     <span className='bg-background relative mt-3 inline-block w-fit rounded-md border px-1.5 py-0.5 before:absolute before:top-0 before:left-0 before:z-10 before:h-full before:w-full before:bg-[url("/noise.gif")] before:opacity-[0.09] before:content-[""]'>
                       <ScrambleHover
-                        text="feature-2"
+                        text="DSA-MASTER"
                         scrambleSpeed={70}
                         maxIterations={20}
                         useOriginalCharsOnly={false}
@@ -330,10 +329,10 @@ export default function Features() {
                 style={{ transition: "all 0s ease-in-out" }}
               >
                 <div className="flex flex-col gap-4">
-                  <h3 className="text-2xl leading-none font-semibold tracking-tight">Smart Components</h3>
+                  <h3 className="text-2xl leading-none font-semibold tracking-tight">Lightning Fast</h3>
                   <div className="text-md text-muted-foreground flex flex-col gap-2 text-sm">
                     <p className="max-w-[460px]">
-                      Intelligent components that adapt to your needs with built-in animations and interactions.
+                      Get complete solutions in under 2 seconds. No waiting, no delays - just instant answers when you need them most.
                     </p>
                   </div>
                 </div>
@@ -343,7 +342,7 @@ export default function Features() {
                       <div className="p-4">
                         <textarea
                           className="w-full min-h-[100px] bg-transparent border-none text-white placeholder:text-white/50 resize-none focus:outline-none text-base leading-relaxed"
-                          placeholder="Search the web..."
+                          placeholder="Enter your DSA problem..."
                           value={inputValue}
                           onChange={(e) => setInputValue(e.target.value)}
                           onKeyDown={handleKeyDown}
@@ -383,7 +382,7 @@ export default function Features() {
                               <path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"></path>
                               <path d="M2 12h20"></path>
                             </svg>
-                            Search
+                            Solve
                           </button>
                         </div>
                         <button className="p-2 rounded-full bg-white/10 hover:bg-white/20 transition-colors">
@@ -426,10 +425,10 @@ export default function Features() {
                 style={{ transition: "all 0s ease-in-out" }}
               >
                 <div className="flex flex-col gap-4">
-                  <h3 className="text-2xl leading-none font-semibold tracking-tight">Dynamic Layouts</h3>
+                  <h3 className="text-2xl leading-none font-semibold tracking-tight">Smart Analysis</h3>
                   <div className="text-md text-muted-foreground flex flex-col gap-2 text-sm">
                     <p className="max-w-[460px]">
-                      Responsive layouts that transform and adapt seamlessly across all device sizes.
+                      Advanced AI that understands problem patterns and provides optimized solutions with detailed explanations.
                     </p>
                   </div>
                 </div>
@@ -437,7 +436,7 @@ export default function Features() {
                   <div className="relative w-full max-w-sm">
                     <img
                       src="/modern-grid-layout.png"
-                      alt="Dynamic Layout Example"
+                      alt="Smart Analysis Example"
                       className="w-full h-auto rounded-lg shadow-lg"
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent rounded-lg"></div>

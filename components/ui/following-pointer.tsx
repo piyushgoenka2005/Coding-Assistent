@@ -20,14 +20,14 @@ export const FollowerPointerCard = ({
   const [isInside, setIsInside] = useState<boolean>(false)
 
   useEffect(() => {
-    console.log("[InterviewCoder] FollowerPointerCard mounted")
+    console.log("[JobCracker] FollowerPointerCard mounted")
     return () => {
-      console.log("[InterviewCoder] FollowerPointerCard unmounted")
+      console.log("[JobCracker] FollowerPointerCard unmounted")
     }
   }, [])
 
   useEffect(() => {
-    console.log("[InterviewCoder] isInside changed:", isInside)
+    console.log("[JobCracker] isInside changed:", isInside)
   }, [isInside])
 
   useEffect(() => {

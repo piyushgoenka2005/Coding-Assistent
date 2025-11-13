@@ -42,8 +42,8 @@ export default function Hero() {
               className="mb-8"
             >
               <h1 id="main-title" className="text-4xl font-bold tracking-tight text-foreground sm:text-6xl lg:text-7xl">
-                Reach <strong>developers</strong> <span>&</span> <br />
-                <strong>creators</strong> <em className="italic">effortlessly</em>
+                Crack <strong>Interview</strong> <span>&</span> <br />
+                <strong>Internships</strong> <em className="italic">effortlessly</em>
               </h1>
             </motion.div>
 

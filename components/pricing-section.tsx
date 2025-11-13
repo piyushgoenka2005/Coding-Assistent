@@ -6,40 +6,40 @@ import { useState } from "react"
 
 const pricingPlans = [
   {
-    name: "Starter",
+    name: "Basic",
     price: "Free",
-    description: "Perfect for getting started with InterviewCoder",
-    features: ["5 components per month", "Basic templates", "Community support", "Standard components"],
+    description: "Perfect for practice interviews",
+    features: ["5 problems per day", "Basic DSA coverage", "Standard solutions", "Community support"],
     popular: false,
     cta: "Get Started",
   },
   {
     name: "Pro",
-    monthlyPrice: 29,
-    annualPrice: 24,
-    description: "For professionals building serious projects",
+    monthlyPrice: 49,
+    annualPrice: 39,
+    description: "For serious job seekers",
     features: [
-      "Unlimited components",
-      "Premium templates",
-      "Priority support",
-      "Advanced animations",
-      "Custom themes",
-      "Export to GitHub",
+      "Unlimited problems",
+      "All DSA topics covered",
+      "Stealth mode enabled",
+      "Instant solutions",
+      "Advanced algorithms",
+      "System design help",
     ],
     popular: true,
     cta: "Start Free Trial",
   },
   {
-    name: "Team",
+    name: "Elite",
     monthlyPrice: 99,
     annualPrice: 79,
-    description: "For teams collaborating on projects",
+    description: "For FAANG-level interviews",
     features: [
       "Everything in Pro",
-      "Team collaboration",
-      "Shared component library",
-      "Advanced analytics",
-      "Custom integrations",
+      "Priority processing",
+      "Custom problem sets",
+      "Interview simulation",
+      "Real-time assistance",
       "Dedicated support",
     ],
     popular: false,
@@ -73,11 +73,11 @@ export function PricingSection() {
           </motion.div>
 
           <h2 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-white via-white to-white/60 bg-clip-text text-transparent mb-4">
-            Choose your plan
+            Choose your advantage
           </h2>
 
           <p className="text-lg text-white/60 max-w-2xl mx-auto mb-8">
-            Start building beautiful components today. Upgrade anytime as your needs grow.
+            Start cracking interviews today. Upgrade anytime as your needs grow.
           </p>
 
           {/* Monthly/Annual Toggle */}
@@ -189,7 +189,7 @@ export function PricingSection() {
             whileTap={{ scale: 0.95 }}
             className="text-[#e78a53] hover:text-[#e78a53]/80 font-medium transition-colors"
           >
-            Contact our sales team →
+            Contact our support team →
           </motion.button>
         </motion.div>
       </div>

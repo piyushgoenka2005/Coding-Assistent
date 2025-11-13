@@ -2,12 +2,14 @@ import type React from "react"
 import type { Metadata } from "next"
 import { GeistSans } from "geist/font/sans"
 import { GeistMono } from "geist/font/mono"
+import { Toaster } from "@/components/ui/sonner"
+import { AuthProvider } from "@/contexts/auth-context"
 import "./globals.css"
 
 export const metadata: Metadata = {
-  title: "InterviewCoder App",
-  description: "Created with InterviewCoder",
-  generator: "InterviewCoder.app",
+  title: "JobCracker AI - Your Secret Weapon for DSA Interviews",
+  description: "Get instant solutions to any DSA problem during interviews. Completely undetectable and lightning fast. Crack your dream job with confidence.",
+  generator: "JobCracker.ai",
 }
 
 export default function RootLayout({
@@ -26,7 +28,12 @@ html {
 }
         `}</style>
       </head>
-      <body className="dark">{children}</body>
+      <body className="dark">
+        <AuthProvider>
+          {children}
+          <Toaster />
+        </AuthProvider>
+      </body>
     </html>
   )
 }

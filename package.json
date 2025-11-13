@@ -1,5 +1,5 @@
 {
-  "name": "my-InterviewCoder-project",
+  "name": "my-JobCracker-project",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -45,7 +45,9 @@
     "cmdk": "1.0.4",
     "cobe": "latest",
     "date-fns": "4.1.0",
+    "dotenv": "^17.2.3",
     "embla-carousel-react": "8.5.1",
+    "firebase": "^12.5.0",
     "framer-motion": "latest",
     "geist": "latest",
     "input-otp": "1.4.1",

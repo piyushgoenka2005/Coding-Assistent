@@ -4,55 +4,55 @@ const testimonials = [
   {
     name: "Arjun Mehta",
     username: "@arjdev",
-    body: "InterviewCoder has completely changed the way I build UIs. Generate, copy-paste, done. No more design stress.",
+    body: "JobCracker got me through my Google interview. The stealth mode is incredible - completely undetectable during screen sharing.",
     img: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face",
   },
   {
     name: "Sara Lin",
     username: "@sara.codes",
-    body: "Honestly shocked at how smooth the InterviewCoder generated components are out of the box. Just works perfectly.",
+    body: "I was struggling with dynamic programming problems. JobCracker solved them in seconds with perfect explanations. Got the job!",
     img: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=150&h=150&fit=crop&crop=face",
   },
   {
     name: "Devon Carter",
     username: "@devninja",
-    body: "Our team launched a client site in 2 days using InterviewCoder components. Saved so much development time.",
+    body: "Used JobCracker for my FAANG interviews. The AI understood complex graph problems instantly. Absolutely game-changing.",
     img: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&h=150&fit=crop&crop=face",
   },
   {
     name: "Priya Shah",
     username: "@priyacodes",
-    body: "Generated a few components in InterviewCoder and everything blended perfectly with our codebase. Massive W.",
+    body: "The speed is unreal. Got solutions to system design questions in under 2 seconds. Interviewer was impressed with my 'quick thinking'.",
     img: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=150&h=150&fit=crop&crop=face",
   },
   {
     name: "Leo Martin",
     username: "@leobuilds",
-    body: "Found a beautiful hero section in InterviewCoder, tweaked the prompt, and shipped in 15 minutes. Game changer.",
+    body: "JobCracker helped me crack 3 different company interviews. The stealth mode is flawless - no one suspected a thing.",
     img: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&h=150&fit=crop&crop=face",
   },
   {
     name: "Chloe Winters",
     username: "@chloewinters",
-    body: "InterviewCoder helped us prototype multiple landing pages without writing CSS once. Pure magic.",
+    body: "From arrays to advanced algorithms, JobCracker handles everything. Got my dream job at Microsoft thanks to this tool.",
     img: "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=150&h=150&fit=crop&crop=face",
   },
   {
     name: "Ayaan Malik",
     username: "@ayaan_dev",
-    body: "As a solo founder, InterviewCoder lets me move fast without sacrificing design quality. Essential tool.",
+    body: "The AI is incredibly smart. It not only solves problems but explains the approach perfectly. Interviewers thought I was a genius.",
     img: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&h=150&fit=crop&crop=face",
   },
   {
     name: "Monica Reeves",
     username: "@monicareeves",
-    body: "Can't believe how polished the InterviewCoder generated components look. Clients are impressed every time.",
+    body: "JobCracker is the secret weapon every developer needs. Completely undetectable and lightning fast. Worth every penny.",
     img: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&h=150&fit=crop&crop=face",
   },
   {
     name: "James Roy",
     username: "@jamesrdev",
-    body: "InterviewCoder is a lifesaver when deadlines are tight. Generate a component, tweak, and deploy instantly.",
+    body: "Used JobCracker for my Amazon interview. The AI solved complex tree problems instantly. Got the offer the same day!",
     img: "https://images.unsplash.com/photo-1507591064344-4c6ce005b128?w=150&h=150&fit=crop&crop=face",
   },
 ]
@@ -109,7 +109,7 @@ export function TestimonialsSection() {
           </h2>
 
           <p className="mt-5 relative z-10 text-center text-lg text-zinc-500">
-            From intuitive design to powerful features, our app has become an essential tool for users around the world.
+            From FAANG interviews to startup challenges, JobCracker has helped developers land their dream jobs worldwide.
           </p>
         </div>
 

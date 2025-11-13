@@ -11,21 +11,42 @@ export function StickyFooter() {
     const handleScroll = () => {
       if (!ticking) {
         requestAnimationFrame(() => {
-          const scrollTop = window.scrollY
+          const scrollTop = window.scrollY || window.pageYOffset
           const windowHeight = window.innerHeight
-          const documentHeight = document.documentElement.scrollHeight
-          const isNearBottom = scrollTop + windowHeight >= documentHeight - 100
+          const documentHeight = Math.max(
+            document.body.scrollHeight,
+            document.body.offsetHeight,
+            document.documentElement.clientHeight,
+            document.documentElement.scrollHeight,
+            document.documentElement.offsetHeight
+          )
+          
+          // Check if we're near the bottom (within 200px) or if content is shorter than viewport
+          const isNearBottom = scrollTop + windowHeight >= documentHeight - 200
+          const isContentShort = documentHeight <= windowHeight + 100
 
-          setIsAtBottom(isNearBottom)
+          setIsAtBottom(isNearBottom || isContentShort)
           ticking = false
         })
         ticking = true
       }
     }
 
+    // Check on mount and resize
+    const checkInitial = () => {
+      handleScroll()
+      // Also check after a short delay to account for dynamic content
+      setTimeout(handleScroll, 100)
+    }
+
     window.addEventListener("scroll", handleScroll, { passive: true })
-    handleScroll() // Check initial state
-    return () => window.removeEventListener("scroll", handleScroll)
+    window.addEventListener("resize", handleScroll, { passive: true })
+    checkInitial()
+    
+    return () => {
+      window.removeEventListener("scroll", handleScroll)
+      window.removeEventListener("resize", handleScroll)
+    }
   }, [])
 
   return (
@@ -109,7 +130,7 @@ export function StickyFooter() {
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.8, delay: 0.3 }}
             >
-              InterviewCoder
+              JobCracker
             </motion.h2>
           </div>
         </motion.div>
